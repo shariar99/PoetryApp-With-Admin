@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgray"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:id="@+id/poetName"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:text="Mirza Galib"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:id="@+id/poetryData"
+        android:text="Mirza Galib soj sod  sjosjd s fdjos s soj so  s pdsk
+                   opskfdpo dfpsio sp psifdps spowspif s psfiouwpeerwe9ro pl;foiyiofudh ddkjhfkd "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="20dp"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:id="@+id/poetryDateTime"
+        android:gravity="center_vertical|right"
+        android:text="10-apr-2023"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/updateBTN"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:text="Update"
+            android:padding="10dp"
+            android:layout_margin="10dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:id="@+id/deleteBTN"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:text="Delete"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:minWidth="100dp"
+            android:minHeight="40dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
